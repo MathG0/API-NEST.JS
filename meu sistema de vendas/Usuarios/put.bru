@@ -1,0 +1,21 @@
+meta {
+  name: put
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://localhost:3000/usuarios/11
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome": "João da Silva",
+    "endereco": "Rua B, 456",
+    "telefone": "987654321",
+    "senha": "novaSenha456"
+  }
+  
+}

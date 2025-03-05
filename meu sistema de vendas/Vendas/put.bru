@@ -1,0 +1,18 @@
+meta {
+  name: put
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://localhost:3000/vendas/9
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "funcionarioId": 4
+  }
+  
+}

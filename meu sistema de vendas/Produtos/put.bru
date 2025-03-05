@@ -1,0 +1,20 @@
+meta {
+  name: put
+  type: http
+  seq: 3
+}
+
+put {
+  url: http://localhost:3000/produtos/3
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome": "Notebook",
+    "preco": 2050.00,
+    "categoriaId": 2
+  }
+  
+}

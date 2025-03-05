@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "meu sistema de vendas",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

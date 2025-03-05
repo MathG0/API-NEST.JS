@@ -1,0 +1,20 @@
+meta {
+  name: post
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/funcionarios
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome": "Maria Oliveira",
+    "endereco": "Avenida Central, 456",
+    "telefone": "1122334455"
+  }
+  
+}

@@ -1,0 +1,20 @@
+meta {
+  name: post
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/produtos
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "nome": "Celular Nokia Tijolão",
+    "preco": 2000.00,
+    "categoriaId": 3
+  }
+  
+}

@@ -24,7 +24,7 @@
 
 ## Descrição
 
-Este repositório contém um projeto final de matéria, no qual foi ensinado a utilizar o framework NestJS para o desenvolvimento de uma API armazenando os dados a um database do MySQL.
+Este repositório contém um projeto final de matéria, no qual foi ensinado a utilizar o framework NestJS para o desenvolvimento de uma API armazenando os dados em um database do MySQL.
 
 ## Intalação
 

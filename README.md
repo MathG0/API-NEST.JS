@@ -35,25 +35,25 @@ $ npm install
 ## Executando o projeto
 
 ```bash
-# development
+# Desenvolvimento
 $ npm run start
 
-# watch mode
+# Inicialização com atualização em tempo real
 $ npm run start:dev
 
-# production mode
+# Modo produção
 $ npm run start:prod
 ```
 
 ## Testes
 
 ```bash
-# unit tests
+# Testes unitários
 $ npm run test
 
-# e2e tests
+# Testes de integração
 $ npm run test:e2e
 
-# test coverage
+# Cobertura de testes
 $ npm run test:cov
 ```

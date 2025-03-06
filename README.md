@@ -26,10 +26,19 @@
 
 Este repositório contém um projeto final de matéria, no qual foi ensinado a utilizar o framework NestJS para o desenvolvimento de uma API armazenando os dados em um database do MySQL.
 
-## Intalação
-
+## Instaação
 ```bash
 $ npm install
+```
+
+## Intalação do Nest.JS
+
+```bash
+# Instalando o framework
+$ npm i -g @nestjs/cli
+
+# Criando projeto Nest.JS
+$ nest new project-name
 ```
 
 ## Executando o projeto
